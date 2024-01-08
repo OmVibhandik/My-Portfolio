@@ -100,6 +100,27 @@ const Project = () => {
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
+                            src={proyectImg(`./my-Portfolio.png`)}
+                            alt='proyectos'
+
+                        />
+                        <div className="content">
+                            <h3>Om's Portfolio</h3>
+                            <p>
+                                My Website 
+                            </p>
+                            <p className="tecnologias">
+                                React
+                                <span> -</span> CSS
+                                <span> -</span> JavaScript
+                                <span> -</span> HTML5
+                            </p>
+                            <a href="https://my-portfolio-me44.onrender.com/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/OmVibhandik/My-Portfolio" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='caja'>
+                        <img
                             src={proyectImg(`./adminDashboard.png`)}
                             alt='proyectos'
 
