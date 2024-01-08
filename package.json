@@ -1,6 +1,6 @@
 {
   "name": "portafolio-om",
-  "homepage": "https://github.com/OmVibhandik",
+  "homepage": ".",
   "version": "1.5.0",
   "private": true,
   "dependencies": {
